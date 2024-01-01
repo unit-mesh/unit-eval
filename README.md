@@ -1,6 +1,12 @@
 # Unit Eval
 
-## Testing by Connection
+`note`: Split from [https://github.com/unit-mesh/unit-gen](https://github.com/unit-mesh/unit-gen)
+
+## Todo
+
+- [x] Testing sets
+- [ ] HumanEval in Java style
+- [ ] AutoDev evaluate datasets
 
 ## LICENSE
 
