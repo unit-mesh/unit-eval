@@ -1,0 +1,6 @@
+name: open_ai_connection
+type: AzureOpenAI
+configs:
+  api-host: https://phodal-18lyqn5spad8.gear-c1.openbayes.net/api/chat # if you are using aios.chat
+secrets:
+  api-key: sk-xxx # your api key

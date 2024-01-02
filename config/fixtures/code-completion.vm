@@ -1,0 +1,10 @@
+Complete ${language} code, return rest code, no explaining
+
+```${language}
+${relatedCode}
+```
+
+Code:
+```${language}
+${beforeCursor}
+```

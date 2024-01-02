@@ -8,7 +8,7 @@ import org.slf4j.Logger
 import java.io.File
 
 class EvalCommand : CliktCommand() {
-    private val input by option(help = "prompt script config file").default("unit-eval.yml")
+    private val input by option(help = "prompt script config file").default("config" + File.separator + "unit-eval.yml")
 
     override fun run() {
         // check is yaml file
