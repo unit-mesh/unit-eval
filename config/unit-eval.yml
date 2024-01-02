@@ -16,3 +16,8 @@ jobs:
         value:
           - temperature: 0.3
             max_tokens: 1000
+
+    validate:
+      - type: code-completion
+        selection: "$.beforeCursor"
+        language: "java"

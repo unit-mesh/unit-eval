@@ -19,6 +19,7 @@ jacoco {
 dependencies {
     implementation("cc.unitmesh:unit-core:0.3.2")
     implementation(libs.clikt)
+    implementation(libs.kotlin.stdlib)
     implementation(libs.serialization.json)
 
     // Logging
@@ -38,8 +39,8 @@ tasks.test {
 
 
 repositories {
-    mavenCentral()
     mavenLocal()
+    mavenCentral()
     google()
 }
 
